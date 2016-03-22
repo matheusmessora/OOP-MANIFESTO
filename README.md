@@ -16,6 +16,8 @@ This are some of the important ones:
 - Try stick to the open/close principle.
 - KISS: Keep It Simple Stupid!
 
+
+## The Rules
 **1- One level of Identation per method**
 
 ```java
@@ -171,4 +173,18 @@ This leads to:
 
 **3**: i++
 
-**10- 
+**10- Use composition instead of inheritance
+
+Remember the 7th rule o achieve this one.
+
+You should only use 2 instance variable per class. 
+
+## Conclusion
+
+The 7th rule is the core of the manifesto. All the others rules are here to help you with the 7th rule. It makes your code become extremely cohesive.
+
+The loose couple idea is granted by the 3th, 4th 6th and 6th rule.
+
+
+
+
