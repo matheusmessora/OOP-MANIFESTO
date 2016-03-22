@@ -1,5 +1,6 @@
 # OOP-MANIFESTO
-
+10 basic rules to increase your OOP skills.
+Keep practicing and follow ALL the rules. Your skills should increase. 
 
 Based on The ThoughtWorks Anthology: Essays on Software
 
