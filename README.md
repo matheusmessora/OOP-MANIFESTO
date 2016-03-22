@@ -140,6 +140,7 @@ It is extreme hard to test.
 + Increase Testability
 
 **9- Methods must have a maximum of 7 statements**
+
 PAY Attention: A FOR statement counts as 3 statements.
 for (int i = 0; i < array.length; i++) {}
  
