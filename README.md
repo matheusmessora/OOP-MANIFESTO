@@ -173,7 +173,7 @@ This leads to:
 
 **3**: i++
 
-**10- Use composition instead of inheritance
+**10- Use composition instead of inheritance**
 
 Remember the 7th rule o achieve this one.
 
