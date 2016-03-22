@@ -20,6 +20,7 @@ public void method() {
 + Increase Readability
 
 **2- Do not use the 'else' keyword.**
+
 *When a given method provides one behavior for the if branch, and another behavior for the else branch, then it means that this particular method is not cohesive. It has got more than one responsibility, dealing with different behaviors.*
 
 ```java
@@ -36,6 +37,7 @@ public boolean method() {
 + Increase Single Responsability Principle
 
 **3- Wrap primitive types, strings and Lists**
+
 *If a variable of a primitive type has behavior, consider creating a class for it.*
 
 ```java
@@ -59,6 +61,7 @@ public class Custommers {
 + Increase Single Responsability Principle
 
 **4- Use only one dot per line**
+
 *Based on the  [Law of Demeter] (http://www.ccs.neu.edu/research/demeter/demeter-method/LawOfDemeter/paper-boy/demeter.pdf).*
 *"Only talk to your friends"*
 ```java
@@ -87,6 +90,7 @@ public class Bank {
 + Increase Readability
 
 **6- Keep your classes small**
+
 A class should have 50 statements and 150 width length.
 
 This excludes blank lines, comments and structure closing lines.
@@ -95,6 +99,7 @@ The code should be visible inside the text editor of your IDE.
 In some languages, this also exclude the imports statements.
 
 **7- Do not use classes with several instance variables**
+
 THIS IS A HARDEST ONE
 A class should have only 2 instance variables.
 
@@ -123,7 +128,7 @@ public class Credentials {
 }
 ```
 + Increase coesion
-+ This helps resolve the 3th and 6th rule
++ This helps resolve the 3th and 6th rule, and vice-versa.
 
 **8- Do not use static methods**
 
