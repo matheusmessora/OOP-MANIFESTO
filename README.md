@@ -128,8 +128,11 @@ public class Credentials {
 **8- Do not use static methods**
 
 [Can you **simple** mock a static method?] (https://dzone.com/articles/why-static-bad-and-how-avoid)
+
 It makes you loose the Polymorphism.
+
 It is extreme hard to test.
+
 [They aren't associated with any object. They really aren't methods at all, according to the usual definition. They are really just procedures.](http://stackoverflow.com/questions/4002201/why-arent-static-methods-considered-good-oo-practice)
 
 + Increase readability
