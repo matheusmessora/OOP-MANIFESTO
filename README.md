@@ -4,6 +4,18 @@ Keep practicing and follow ALL the rules. Your skills should increase.
 
 Based on The ThoughtWorks Anthology: Essays on Software
 
+## What are we looking for?
+Every interview asks the same question. *When you are coding, what are the key concepts of good programming?*
+
+This are some of the important ones:
+
+- Loose coupling
+- High cohesion
+- Write testable classes, which is easily testable
+- Composition over Iheritence
+- Try stick to the open/close principle.
+- KISS: Keep It Simple Stupid!
+
 **1- One level of Identation per method**
 
 ```java
@@ -16,8 +28,8 @@ public void method() {
    }
 }
 ```
-
 + Increase Readability
++ Decrease Complexity level
 
 **2- Do not use the 'else' keyword.**
 
@@ -157,3 +169,5 @@ This leads to:
 **2**: i < array.length;
 
 **3**: i++
+
+**10- 
