@@ -126,6 +126,7 @@ public class Credentials {
 + This helps resolve the 3th and 6th rule
 
 **8- Do not use static methods**
+
 [Can you **simple** mock a static method?] (https://dzone.com/articles/why-static-bad-and-how-avoid)
 It makes you loose the Polymorphism.
 It is extreme hard to test.
