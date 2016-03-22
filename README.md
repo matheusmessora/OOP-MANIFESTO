@@ -1,5 +1,5 @@
 # OOP-MANIFESTO
-10 basic rules to increase your OOP skills.
+10 basic rules to increase your Object Oriented Programming skills.
 Keep practicing and follow ALL the rules. Your skills should increase. 
 
 Based on The ThoughtWorks Anthology: Essays on Software
@@ -17,7 +17,7 @@ public void method() {
 }
 ```
 
-+ Increase readability
++ Increase Readability
 
 **2- Do not use the 'else' keyword.**
 *When a given method provides one behavior for the if branch, and another behavior for the else branch, then it means that this particular method is not cohesive. It has got more than one responsibility, dealing with different behaviors.*
@@ -36,12 +36,22 @@ public boolean method() {
 + Increase Single Responsability Principle
 
 **3- Wrap primitive types, strings and Lists**
-*Basically, if a variable of a primitive type has behavior, consider creating a class for it.*
+*If a variable of a primitive type has behavior, consider creating a class for it.*
 
 ```java
-public class Bank {
+public class Account {
    int balance; // Wrong
    Balance balance; // Correct
+   
+   List<Customer> custommers;  // This is WRONG
+   Custommers custommers;      // This is RIGHT
+}
+
+public class Balance {}
+
+public class Custommers { 
+   private List<Customer> custommersList;
+   ...
 }
 ```
 
@@ -49,27 +59,40 @@ public class Bank {
 + Increase Single Responsability Principle
 
 **4- Use only one dot per line**
-*Based on the  Law of Demeter. "Only talk to your friends"*
+*Based on the  [Law of Demeter] (http://www.ccs.neu.edu/research/demeter/demeter-method/LawOfDemeter/paper-boy/demeter.pdf).*
+*"Only talk to your friends"*
 ```java
 public class Bank {
-    Balance balance;
+    Customer customer;
 
-   public Balance getBalance(){ return balance; }
-
-   public void method() {
-      this.getBalance().isPositive(); // WRONG
-      this.isBalancePositive(); // Correct
+  // This is WRONG
+   public void withdraw() {
+      int value = customer.getBalance().value(); // WRONG
+      if(value > 0) {
+         customer.getBalance().withdraw(10);
+      }
    }
-
-   ...
+   
+   // This is RIGHT
+   public void withdraw() {
+      customer.withdraw(10);
+   }
 }
 ```
++ Better real world scenario
++ Bank is de-coupled from Customer.getBalance() Class/methods
++ Readability
 
 **5- Do not abbreviate**
++ Increase Readability
 
 **6- Keep your classes small**
-A class should have 50 statements. This excludes blank lines, comments and structure closing lines.
+A class should have 50 statements. 
+
+This excludes blank lines, comments and structure closing lines.
 The code should be visible inside the text editor of your IDE.
+
+In some languages, this also exclude the imports statements.
 
 **7- Do not use classes with several instance variables**
 A class should have only 2 instance variables.
