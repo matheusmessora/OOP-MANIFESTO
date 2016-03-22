@@ -1,4 +1,5 @@
-# OOP-MANIFEST
+# OOP-MANIFESTO
+
 
 Based on The ThoughtWorks Anthology: Essays on Software
 
@@ -33,7 +34,7 @@ public boolean method() {
 
 + Increase Single Responsability Principle
 
-**3- Wrap primitive types and strings**
+**3- Wrap primitive types, strings and Lists**
 *Basically, if a variable of a primitive type has behavior, consider creating a class for it.*
 
 ```java
@@ -44,6 +45,7 @@ public class Bank {
 ```
 
 + Increase coesion
++ Increase Single Responsability Principle
 
 **4- Use only one dot per line**
 *Based on the  Law of Demeter. "Only talk to your friends"*
