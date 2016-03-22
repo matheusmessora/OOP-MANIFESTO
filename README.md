@@ -2,7 +2,7 @@
 10 basic rules to increase your Object Oriented Programming skills.
 Keep practicing and follow ALL the rules. Your skills should increase. 
 
-Based on The ThoughtWorks Anthology: Essays on Software
+Based on [The ThoughtWorks Anthology: Essays on Software](http://www.amazon.com/The-ThoughtWorks-Anthology-Technology-Programmers/dp/193435614X)
 
 ## What are we looking for?
 Every interview asks the same question. *When you are coding, what are the key concepts of good programming?*
