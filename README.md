@@ -112,7 +112,7 @@ In some languages, this also exclude the imports statements.
 
 **7- Do not use classes with several instance variables**
 
-THIS IS A HARDEST ONE
+:fire: This is polemical, and very hard to achieve :fire:
 A class should have only 2 instance variables.
 
 ```java
