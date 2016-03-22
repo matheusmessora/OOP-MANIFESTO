@@ -31,6 +31,8 @@ public boolean method() {
 }
 ```
 
++ Increase Single Responsability Principle
+
 **3- Wrap primitive types and strings**
 *Basically, if a variable of a primitive type has behavior, consider creating a class for it.*
 
@@ -40,6 +42,8 @@ public class Bank {
    Balance balance; // Correct
 }
 ```
+
++ Increase coesion
 
 **4- Use only one dot per line**
 *Based on the  Law of Demeter. "Only talk to your friends"*
