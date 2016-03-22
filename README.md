@@ -139,3 +139,12 @@ It is extreme hard to test.
 + Increase Polymorphism
 + Increase Testability
 
+**9- Methods must have a maximum of 7 statements**
+
+PAY Attention: A FOR statement counts as 3 statements.
+for (int i = 0; i < array.length; i++) {}
+
+This leads to:
+- **1** int i = 0
+- **2** i < array.length;
+- **3** i++
