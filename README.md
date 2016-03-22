@@ -15,6 +15,8 @@ public void method() {
 }
 ```
 
++ Increase readability
+
 **2- Do not use the 'else' keyword.**
 *When a given method provides one behavior for the if branch, and another behavior for the else branch, then it means that this particular method is not cohesive. It has got more than one responsibility, dealing with different behaviors.*
 
