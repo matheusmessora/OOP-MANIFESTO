@@ -87,7 +87,7 @@ public class Bank {
 + Increase Readability
 
 **6- Keep your classes small**
-A class should have 50 statements. 
+A class should have 50 statements and 150 width length.
 
 This excludes blank lines, comments and structure closing lines.
 The code should be visible inside the text editor of your IDE.
@@ -95,8 +95,43 @@ The code should be visible inside the text editor of your IDE.
 In some languages, this also exclude the imports statements.
 
 **7- Do not use classes with several instance variables**
+THIS IS A HARDEST ONE
 A class should have only 2 instance variables.
 
+```java
+// This is WRONG
+public class Customer {
+    Long id;
+    String email;
+    String username;
+    String password;
+}
+
+// This is RIGHT
+public class Customer {
+   Long id;
+   CustomerDetails details;
+}
+
+public class CustomerDetails {
+   Email email;
+   Credentials credentials;
+}
+public class Credentials {
+   String username;
+   String password;
+}
+```
++ Increase coesion
++ This helps resolve the 3th and 6th rule
+
 **8- Do not use static methods**
-Can you simple mock a static method without frameworks?
-https://dzone.com/articles/why-static-bad-and-how-avoid
+[Can you **simple** mock a static method?] (https://dzone.com/articles/why-static-bad-and-how-avoid)
+It makes you loose the Polymorphism.
+It is extreme hard to test.
+[They aren't associated with any object. They really aren't methods at all, according to the usual definition. They are really just procedures.](http://stackoverflow.com/questions/4002201/why-arent-static-methods-considered-good-oo-practice)
+
++ Increase readability
++ Increase Polymorphism
++ Increase Testability
+
