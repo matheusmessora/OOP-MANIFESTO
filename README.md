@@ -188,4 +188,5 @@ The loose couple idea is granted by the 3th, 4th 6th and 6th rule.
 
 
 # EPIC TOPICS
-Não estude para passar na prova, estude para aprender!
+In thw word of fabio.sales
+> Não estude para passar na prova, estude para aprender!
