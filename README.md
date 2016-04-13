@@ -188,5 +188,5 @@ The loose couple idea is granted by the 3th, 4th 6th and 6th rule.
 
 
 # EPIC TOPICS
-In thw word of fabio.sales
+In the word of [Fabio Sales Souza](https://github.com/fabiodoaraujo)
 > Não estude para passar na prova, estude para aprender!
