@@ -187,4 +187,5 @@ The loose couple idea is granted by the 3th, 4th 6th and 6th rule.
 
 
 
-
+# EPIC TOPICS
+Não teste para passar na prova, teste para aprender!
